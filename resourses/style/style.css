@@ -1,0 +1,690 @@
+/*unevirsal style*/
+
+html , body{
+    margin: 0; 
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.captlize{
+    text-transform: uppercase;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.light-gray{
+    color: hsl(210, 4%, 67%);
+}
+
+.buttom{       
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+p{
+    color:  hsl(213, 9%, 39%);
+    letter-spacing: .5px;
+    line-height: 1.5;
+    margin-bottom: 2rem; 
+}
+
+/*.button and p in 825px width*/
+@media screen and (max-width:825px) {
+
+    p{
+      font-size: 13.5px;
+    }
+}
+
+/*banner section*/
+#banner{
+    background-image: url('../images/desktop/image-header.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    height: 48rem;
+    padding: 1rem 1.5rem;
+}
+
+.banner-main-hearer{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 5px;
+    margin-top: 7%;
+    font-size: 3rem;
+}
+
+[src = "./resourses/images/icon-arrow-down.svg"]{
+    margin: 2.5% 49% 0 ;
+}
+
+/*banner main text in 980px */
+@media screen and (max-width:980px){
+
+    .banner-main-hearer{
+        font-size: 2.5rem;
+    }
+
+    #banner{
+        height: 35rem;
+    }
+}
+
+/*header section*/
+header{
+    display: flex;
+    margin-bottom: 5%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    width: 25%;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: .5px;
+    margin-left: 1%;
+    font-size: 2.7rem;
+}
+
+header nav{
+    width: 74%;
+    margin-right: 1%;
+}
+
+header nav ul{
+    width: 96%;
+    margin-right: 4%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+ul.header-nav li{
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.header-nav a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.3rem;
+    
+}
+
+
+/*extra nav element style*/
+li.extra{
+    width: 120px;
+    height: 50px;
+    background-color: white; 
+    border-radius:150px; 
+}
+
+li.extra:hover {
+    background-color: rgba(255, 255, 255, 0.3); 
+    cursor: pointer;
+    transition:.3s;
+}
+
+li.extra a{
+    font-family: 'Fraunces', serif; 
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+li.extra:hover a{
+    color: white;
+}
+
+/*phone list style */
+.list{
+    display: none;
+}
+
+.list img{
+   margin: 0;
+   height: 23px;
+}
+
+.list img:hover{
+    cursor: pointer;
+}
+
+ul.phone-nav{
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    top: 8%;
+    bottom: 13%;
+
+}
+
+ul.phone-nav li{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 5%;
+}
+
+ul.phone-nav a{
+    text-decoration: none;
+    color:  hsl(232, 10%, 55%);
+    font-size: 1.3rem;
+}
+
+li.extra-phone{
+    width: 120px;
+    height: 50px;
+    background-color: rgb(255, 240, 23); 
+    border-radius:150px; 
+    margin: 0 auto;
+
+}
+
+li.extra-phone a{
+    font-family: 'Fraunces', serif; 
+    color: hsl(212, 27%, 19%);
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: .5px;
+}
+
+/*JS Mode */
+.phone{
+    position: fixed;
+    z-index: 10;
+    top: 115px;
+    position: fixed;
+    left:3%;
+    right: 3%;
+    opacity: 1; 
+    width: 94%;
+    height: 275px;
+    background-color: #ffffff;
+    font-size: 1.5rem;
+    border-radius: 25px;
+}
+
+.phone{
+    display: none;
+}
+
+/*Css mode*/
+/*.phone{
+    position: fixed;
+    z-index: 10;
+    top: -100%;
+    left: 0;
+    right: 0;
+    width: 94%;
+    height: 275px;
+    background-color: #ffffff;
+    box-shadow: 0 0 64px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    font-size: 1.5rem;
+    border-radius: 25px;
+}*/
+
+/*.list:hover .phone{
+    top: 115px;
+    position: fixed;
+    left:3%;
+    right: 3%;
+    opacity: 1; 
+    transition: 2s;
+   
+}*/
+
+
+
+
+/*header and img from banner  in 625px width*/
+@media screen and (max-width:700px) {
+
+    header{
+      justify-content: flex-start;
+    }
+
+    header nav{
+      display: none;
+    }
+
+    .logo{
+        width: 50%;
+        font-size: 2.5rem;
+    }
+
+    [src = "./resourses/images/icon-arrow-down.svg"]{
+       display: none;
+    }
+
+    .banner-main-hearer{
+        margin-top: 13%;
+
+        font-size: 2rem;
+    }
+
+    #banner{
+        height: 27rem;
+    }
+
+    .list{
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+
+/*project section*/
+#projects{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.project-contant{
+    width: 50%;
+    position: relative;
+}
+
+.project-description{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+#projects img{
+    width: 100%;
+    height: 100%;
+}
+
+#projects h3{
+    font-family: 'Fraunces', serif; 
+    color: hsl(212, 27%, 19%);
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: .7rem;
+}
+
+
+.learn-more{
+    letter-spacing: 1.3px;
+    font-size: 1.1rem;
+    font-family: 'Fraunces', serif; 
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+    transition: 0.5s;
+}
+
+.learn-more:hover{
+    cursor: pointer;
+    
+}
+
+.learn-more::after{
+    content: '';
+    display: block;
+    margin-top: -2.5%;
+    height: 10px;
+    border-radius: 25px;
+    width: 133px;
+
+}
+
+.yellow::after{
+    background-color: hsla(51, 100%, 49%, 0.5);
+}
+
+.red::after{
+   background-color: hsl(7, 99%, 85%) ;
+}
+
+.yellow:hover::after{
+    background-color: hsl(51, 100%, 49%);
+    transition:.3s;
+}
+
+.red:hover::after{
+    background-color: hsl(7, 99%, 70%);
+    transition:.3s;
+ }
+
+/*project  section in 980px width */
+@media screen and (max-width:1000px) {
+   
+    .project-description{
+        width: 80%;
+    }
+  
+    #projects h3{
+        font-size: 1.7rem;
+    }
+    
+    
+    .learn-more{
+        font-size:1rem;
+    }
+
+    .learn-more::after{
+        content: '';
+        display: block;
+        margin-top: -2.5%;
+        height: 7px;
+        border-radius: 25px;
+        width: 123px;
+    
+    }
+    
+ }
+
+ @media screen and (max-width:770px) {
+ 
+  
+    #projects h3{
+   
+        font-size: 2.3rem;
+    
+    }
+    .learn-more{
+
+        font-size: 1.3rem;
+ 
+    }
+    
+    
+    .project-contant{
+        width: 100%;
+        
+    }
+
+    .project-description{
+        width:80%;
+    }
+    .centered {
+       text-align: center;
+        
+    }
+    
+    .learn-more::after{
+     display: none;
+    }
+
+    .yellow{
+       color: hsla(51, 100%, 49%, 0.5);
+    }
+    
+    .red{
+      color: hsl(7, 99%, 85%) ;
+    }
+    
+    .yellow:hover{
+      color: hsl(51, 100%, 49%);
+      transition:linear;
+       
+    }
+    
+    .red:hover{
+      color: hsl(7, 99%, 70%);
+      transition:linear;
+       
+     }
+  
+     .extra-height{
+         height: 400px;
+     }
+    
+     .buttom{       
+      
+        top: 70%;
+      
+    }
+
+ }
+
+
+ /*client section*/
+ #client{
+    width: 100%;
+    margin-bottom: 5%;
+ 
+    
+ }
+
+ .title{
+      font-family: 'Fraunces', serif; 
+      font-size: 1.7rem;
+      letter-spacing: 2.3px;
+      text-align: center;
+      margin-top:10%;
+      margin-bottom: 6%; 
+ }
+ 
+ .main-client{
+    width: 98%;
+    margin: 0 1%;
+    display: flex;
+    justify-content: center;
+    
+ }
+
+ .what-client-say{
+    width: 33%;
+    padding: .7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+ }
+
+ .what-client-say img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-bottom: 1%;
+ }
+
+ .client-contant{
+     text-align: center;
+     padding: 1rem;
+ }
+
+.describstion{
+     margin-bottom: 10%;
+     height: 135px;
+ }
+
+ .client-contant h3{
+    font-family: 'Fraunces', serif; 
+    margin-bottom: 0;
+    color: hsl(212, 27%, 19%);
+ }
+
+ /*client section in 770px width */
+ @media screen and (max-width:770px) {
+
+    .describstion{
+        margin-bottom: 25%;
+    }
+ }
+
+ /*client section in 700px width */
+ @media screen and (max-width:700px) {
+    
+    .main-client{
+     flex-wrap: wrap;
+     align-items: center;
+        
+     }
+     
+    .what-client-say{
+        width: 80%;
+     }
+
+     .describstion{
+        margin-bottom:5%;
+        height: 70px;
+    }
+
+    .title{
+        margin-top:12%;
+        margin-bottom: 8%; 
+   }
+    
+ }
+
+ /*client section in 450px width */
+ @media screen and (max-width:450px) {
+    
+    .describstion{
+        height:120px;
+    }
+
+   
+ }
+
+
+ /*service section*/
+ #services{
+     display: flex;
+     flex-wrap: wrap;
+     width: 100% ;
+     
+    
+ } 
+
+ .services-container{
+     width: 25%;
+ 
+ }
+
+ .services-container img{
+     width: 100%;
+     height: 100%;
+ }
+
+  /*services section in 650px width */
+  @media screen and (max-width:700px) { 
+
+    .services-container{
+        width: 50%;
+     }
+
+ }
+
+ /*footer */
+ footer{
+
+     background-color:  hsl(168, 34%, 55%);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding-top: 1.5rem;
+ }
+
+ .footer-logo{
+     color: hsl(168, 34%, 35%);
+     font-size: 2.5rem;
+     font-weight: 800;
+ }
+
+ footer nav{
+    width: 100%;
+  
+ }
+
+ ul.footer-nav , ul.social-media {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+    margin: 1.5% 0;
+    width: 100%;
+  
+ }
+
+ ul.social-media{
+    margin: 4% 0 0 0 ; 
+ }
+
+ ul.footer-nav  li   {
+    margin: 0 3.5%;
+
+}
+
+ul.social-media li{
+    margin: 0 1.5%;
+}
+
+ul.footer-nav  a , ul.social-media  a{
+    text-decoration: none;
+    color: hsl(168, 34%, 35%);
+    font-size: 1.5rem;
+    
+}
+
+ul.social-media  a{
+    font-size: 2rem;
+}
+
+.copywrite{
+    margin-top: 7%;
+    margin-bottom: 2%;
+    
+}
+
+footer a:hover {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: .3s;
+}
+
+  /*footer in 825px width */
+  @media screen and (max-width:825px) { 
+
+   
+    .footer-logo{
+        font-size: 2rem;
+    }
+
+    ul.footer-nav  a {
+    font-size: 1.3rem;
+    }
+
+    ul.social-media  a{
+    font-size: 1.7rem;
+    }
+
+ }
+
+
+   
+/*Thats really great i finally complete it */
