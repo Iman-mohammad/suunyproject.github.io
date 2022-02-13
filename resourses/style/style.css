@@ -601,12 +601,12 @@ li.extra-phone a{
  /*footer */
  footer{
 
-     background-color:  hsl(168, 34%, 55%);
+     background-color:  hsl(168, 37%, 59%);
      display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: center;
-     padding-top: 1.5rem;
+     padding-top: 2rem;
  }
 
  .footer-logo{
