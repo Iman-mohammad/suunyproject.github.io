@@ -36,7 +36,8 @@ Media query
 
 Using JS thought project 
 
-```function myFunction() {
+```
+function myFunction() {
     document.getElementById("test").style.display = "block";
   }
 
