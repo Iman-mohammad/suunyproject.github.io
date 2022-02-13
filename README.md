@@ -5,13 +5,13 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 
 # Table of contents
-Overview
-Screenshot
-Built-with
-What-i-learned
-Links
-Useful-resources
-Author
+- Overview
+- Screenshot
+- Built-with
+- What-i-learned
+- Links
+- Useful-resources
+- Author
 
 
 # Overview : This is my first challenge with the front-end mentor. It is a landing page. I used languages such as HTML, CSS and a few more JS. I designed the site to fit most screen sizes. Any feedback and suggestions on how I can improve are very welcome!
