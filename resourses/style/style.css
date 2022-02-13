@@ -658,14 +658,16 @@ ul.social-media  a{
 .copywrite{
     margin-top: 7%;
     margin-bottom: 2%;
-    color: white;
+    color: hsl(167, 45%, 22%);
     font-size: 18px;
-    
+    font-weight: bold;
 }
 
 .copywrite a{
-    color: white;
+    color: hsl(167, 45%, 22%);
+    font-weight: bold;
     text-decoration: none;
+
 }
 
 footer a:hover {
