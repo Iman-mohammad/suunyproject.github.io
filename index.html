@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link with css file-->
+    <link href="./resourses/style/style.css" rel="stylesheet" type="text/css">
+    <!--link with javascript-->
+    <script src="./resourses/script/script-name.js"></script>
+    <!--favicon-->
+    <link rel="shortcut icon" type="image/jpg" href="./resourses/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--linking fontawesome-->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--link with font Barlow 600 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+    <!--link with font barlow 800-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@800&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+    <!--link with Fraunces 700 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700&display=swap" rel="stylesheet">
+    <!--link with Fraunces 900 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+    <title>Sunny Side</title>
+</head>
+
+<body>
+    <!--banner section-->
+    <div id="banner">
+        <header>
+            <h1 class="logo" >sunnyside</h1>
+            <!--phone navegation if you want to use css -->
+            <!--<div class="list">
+                <img src="./resourses/images/icon-hamburger.svg" alt="list icon">
+                
+                <div class="phone">
+                    <ul class="phone-nav">
+                        <li><a href="#banner">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li class="extra-phone"><a href="#contact" class="captlize">Contact</a></li>
+                    </ul>
+               </div>
+            </div>-->
+
+            <!--phone navegation if you want to use JS --> 
+            <div class="list">
+                <img  src="./resourses/images/icon-hamburger.svg" alt="list icon" onclick="myFunction()">
+                <div id="test" class="phone" onclick="myFunction2()">
+                    <ul class="phone-nav">
+                        <li><a href="#banner">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li class="extra-phone"><a href="#contact" class="captlize">Contact</a></li>
+                    </ul>
+               </div>
+            </div>
+
+            <!--desktop navegation-->
+            <nav>
+                <ul class="header-nav">
+                    <li><a href="#banner">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li class="extra"><a href="#contact" class="captlize">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1 class="banner-main-hearer captlize">we are creative</h1>
+        <img src="./resourses/images/icon-arrow-down.svg" alt="buttom arrow">
+    </div>
+    <!--project section-->
+   <div id="projects">
+        <div class="project-contant extra-height">
+            <div class="project-description centered">
+                <h3>Transform your brand</h3>
+                <p>Great things come from hard work and perseverance. No Excuses.</p>
+                <a class="learn-more captlize yellow">Learn More</a>
+            </div>
+        </div>
+
+        <div class="project-contant">
+            <img src="./resourses/images/desktop/image-transform.jpg" alt="egg on yellow background">
+        </div>
+
+        <div class="project-contant">
+            <img src="./resourses/images/desktop/image-stand-out.jpg" alt="pink cup on pink background">
+        </div>
+
+        <div class="project-contant extra-height" >
+            <div class="project-description centered" >
+                <h3>Standout To the right audience </h3>
+                <p>Determine never to be idle. No person will have occasion to complain of the want of time, who never loses any. It is wonderful how much may be done, if we are always doing.</p>
+                <a class="learn-more captlize red">Learn More</a>
+            </div>
+        </div>
+
+        <div class="project-contant">
+            <img src="./resourses/images/desktop/image-graphic-design.jpg" alt="cherry">
+            <div class="project-description buttom">
+                <h3 style="color: hsl(167, 40%, 24%) ;">Graphic Design</h3>
+                <p style="color: hsl(167, 40%, 24%);">To succeed, work hard, never give up and above all, cherish a magnificent obsession.</p>  
+            </div>
+        </div>
+
+        <div class="project-contant" >
+            <img src="./resourses/images/desktop/image-photography.jpg" alt="orange" >
+            <div class=" project-description buttom" >
+                <h3 style="color: hsl(198, 62%, 26%);" >Photography</h3>
+                <p style="color: hsl(198, 62%, 26%);">Happiness is the real sense of fulfillment that comes from hard work.</p>
+            </div>
+        </div>
+
+    </div>
+    
+    <!--client section-->
+    <div id="client">
+        
+        <h3 class="captlize light-gray title" style="display: block;">client testemonials</h3>
+
+        <div class="main-client">
+
+            <div class="what-client-say">
+                <img src="./resourses/images/image-emily.jpg" alt="image-emily">
+                <div class="client-contant">
+                    <p class="describstion" >Success isn't always about greatness. It's about consistency. Consistent hard work leads to success. Greatness will come.</p>
+                    <h3>Emily R.</h3>
+                    <p class=" light-gray">Markiting Director</p>
+                </div>
+            </div>
+
+            <div class="what-client-say">
+                <img src="./resourses/images/image-jennie.jpg" alt="image-jennie">
+                <div class="client-contant">
+                    <p class="describstion" >If you go to work on your goals, your goals will go to work on you. If you go to work on your plan, your plan will go to work on you. Whatever good things we build end up building us</p>
+                    <h3>Jennie H.</h3>
+                    <p class="light-gray">CEO</p>
+                </div>
+            </div>
+
+            <div class="what-client-say">
+                <img src="./resourses/images/image-thomas.jpg" alt="image-thomas">
+                <div class="client-contant">
+                    <p class="describstion" >Without hard work and discipline it is difficult to be a top professional. With hard work and effort, you can achieve anything.</p>
+                    <h3>Thomas RT.</h3>
+                    <p class=" light-gray">Bussines Owner</p>
+                </div>
+            </div>
+        </div> 
+    </div>
+    
+    <!--services section-->
+    <div id="services">
+        <div class="services-container">
+            <img src="./resourses/images/desktop/image-gallery-milkbottles.jpg" alt="image-gallery-milkbottles">
+        </div>
+        
+        <div class="services-container">
+            <img src="./resourses/images/desktop/image-gallery-orange.jpg" alt="image-gallery-orange">
+        </div>
+
+        <div class="services-container">
+            <img src="./resourses/images/desktop/image-gallery-cone.jpg" alt="image-gallery-cone">
+        </div>
+
+        <div class="services-container">
+            <img src="./resourses/images/desktop/image-gallery-sugarcubes.jpg" alt="image-gallery-sugarcubes">
+        </div>
+    </div>
+    
+    <!--contact section-->
+    <footer id="contact">
+      
+            <h1 class="footer-logo center">suunyside</h1>
+
+            <nav >
+                <ul class="footer-nav">
+                    <li><a href="#banner">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                </ul>
+            </nav>
+
+            <nav>
+                <ul  class="social-media">
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                    <li><a href="#" class="fa fa-pinterest"></a></li>
+                </ul>
+            </nav>
+
+            <p class="copywrite">Developed By : Iman Odeh </p>
+
+   
+    </footer>
+
+</body>
+</html>
