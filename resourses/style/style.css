@@ -160,16 +160,16 @@ li.extra:hover a{
 }
 
 /*phone list style */
-.list{
+.phone-div{
     display: none;
 }
 
-.list img{
+.phone-div img{
    margin: 0;
    height: 23px;
 }
 
-.list img:hover{
+.phone-div img:hover{
     cursor: pointer;
 }
 
@@ -291,7 +291,7 @@ li.extra-phone a{
         height: 27rem;
     }
 
-    .list{
+    .phone-div{
         display: flex;
         width: 50%;
         justify-content: flex-end;
