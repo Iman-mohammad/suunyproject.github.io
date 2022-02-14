@@ -27,8 +27,8 @@
 
 <body>
     <!--banner section-->
-    <div id="banner">
-        <header>
+    <main id="banner"  role="main">
+        <header role="banner">
             <h1 class="logo" >sunnyside</h1>
             <!--phone navegation if you want to use css -->
             <!--<div class="list">
@@ -45,7 +45,7 @@
             </div>-->
 
             <!--phone navegation if you want to use JS --> 
-            <div class="list">
+            <div class="list" role="phone-banner">
                 <img  src="./resourses/images/icon-hamburger.svg" alt="list icon" onclick="myFunction()">
                 <div id="test" class="phone" onclick="myFunction2()">
                     <ul class="phone-nav">
@@ -58,7 +58,7 @@
             </div>
 
             <!--desktop navegation-->
-            <nav>
+            <nav role="navigation">
                 <ul class="header-nav">
                     <li><a href="#banner">About</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -70,45 +70,45 @@
 
         <h1 class="banner-main-hearer captlize">we are creative</h1>
         <img src="./resourses/images/icon-arrow-down.svg" alt="buttom arrow">
-    </div>
+    </main>
 
     <!--project section-->
-   <div id="projects">
-        <div class="project-contant extra-height">
-            <div class="project-description centered">
+   <div id="projects" role="projectinfo">
+        <div class="project-contant extra-height" role="project-content">
+            <div class="project-description centered" role="project-description">
                 <h2>Transform your brand</h2>
                 <p>Great things come from hard work and perseverance. No Excuses.</p>
                 <a class="learn-more captlize yellow">Learn More</a>
             </div>
         </div>
 
-        <div class="project-contant">
+        <div class="project-contant" role="project-content">
             <img src="./resourses/images/desktop/image-transform.jpg" alt="egg on yellow background">
         </div>
 
-        <div class="project-contant">
+        <div class="project-contant" role="project-content">
             <img src="./resourses/images/desktop/image-stand-out.jpg" alt="pink cup on pink background">
         </div>
 
-        <div class="project-contant extra-height" >
-            <div class="project-description centered" >
+        <div class="project-contant extra-height" role="project-content">
+            <div class="project-description centered" role="project-description">
                 <h2>Standout To the right audience </h2>
                 <p>Determine never to be idle. No person will have occasion to complain of the want of time, who never loses any. It is wonderful how much may be done, if we are always doing.</p>
                 <a class="learn-more captlize red">Learn More</a>
             </div>
         </div>
 
-        <div class="project-contant">
+        <div class="project-contant" role="project-content">
             <img src="./resourses/images/desktop/image-graphic-design.jpg" alt="cherry">
-            <div class="project-description buttom">
+            <div class="project-description buttom" role="project-description">
                 <h2 style="color: hsl(167, 40%, 24%) ;">Graphic Design</h2>
                 <p style="color: hsl(167, 40%, 24%);">To succeed, work hard, never give up and above all, cherish a magnificent obsession.</p>  
             </div>
         </div>
 
-        <div class="project-contant" >
+        <div class="project-contant" role="project-content">
             <img src="./resourses/images/desktop/image-photography.jpg" alt="orange" >
-            <div class=" project-description buttom" >
+            <div class=" project-description buttom" role="project-description" >
                 <h2 style="color: hsl(198, 62%, 26%);" >Photography</h2>
                 <p style="color: hsl(198, 62%, 26%);">Happiness is the real sense of fulfillment that comes from hard work.</p>
             </div>
@@ -117,33 +117,33 @@
     </div>
     
     <!--client section-->
-    <div id="client">
+    <div id="client" role="clientopinion">
         
         <h2 class="captlize light-gray title" style="display: block;">client testemonials</h2>
 
-        <div class="main-client">
+        <div class="main-client" role="clint-info">
 
-            <div class="what-client-say">
+            <div class="what-client-say" role="what-client-say">
                 <img src="./resourses/images/image-emily.jpg" alt="image-emily">
-                <div class="client-contant">
+                <div class="client-contant" role="client-contant">
                     <p class="describstion" >Success isn't always about greatness. It's about consistency. Consistent hard work leads to success. Greatness will come.</p>
                     <h3>Emily R.</h3>
                     <p class=" light-gray">Markiting Director</p>
                 </div>
             </div>
 
-            <div class="what-client-say">
+            <div class="what-client-say" role="what-client-say">
                 <img src="./resourses/images/image-jennie.jpg" alt="image-jennie">
-                <div class="client-contant">
+                <div class="client-contant" role="client-contant">
                     <p class="describstion" >If you go to work on your goals, your goals will go to work on you. If you go to work on your plan, your plan will go to work on you. Whatever good things we build end up building us</p>
                     <h3>Jennie H.</h3>
                     <p class="light-gray">CEO</p>
                 </div>
             </div>
 
-            <div class="what-client-say">
+            <div class="what-client-say" role="what-client-say">
                 <img src="./resourses/images/image-thomas.jpg" alt="image-thomas">
-                <div class="client-contant">
+                <div class="client-contant" role="client-contant">
                     <p class="describstion" >Without hard work and discipline it is difficult to be a top professional. With hard work and effort, you can achieve anything.</p>
                     <h3>Thomas RT.</h3>
                     <p class=" light-gray">Bussines Owner</p>
@@ -153,30 +153,30 @@
     </div>
     
     <!--services section-->
-    <div id="services">
-        <div class="services-container">
+    <div id="services" role="serviceinfo">
+        <div class="services-container" role="services-container">
             <img src="./resourses/images/desktop/image-gallery-milkbottles.jpg" alt="image-gallery-milkbottles">
         </div>
         
-        <div class="services-container">
+        <div class="services-container" role="services-container">
             <img src="./resourses/images/desktop/image-gallery-orange.jpg" alt="image-gallery-orange">
         </div>
 
-        <div class="services-container">
+        <div class="services-container" role="services-container">
             <img src="./resourses/images/desktop/image-gallery-cone.jpg" alt="image-gallery-cone">
         </div>
 
-        <div class="services-container">
+        <div class="services-container" role="services-container">
             <img src="./resourses/images/desktop/image-gallery-sugarcubes.jpg" alt="image-gallery-sugarcubes">
         </div>
     </div>
     
     <!--contact section-->
-    <footer id="contact">
+    <footer id="contact" role="contentinfo">
       
             <h1 class="footer-logo center">suunyside</h1>
 
-            <nav >
+            <nav role="navigation">
                 <ul class="footer-nav">
                     <li><a href="#banner">About</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -184,7 +184,7 @@
                 </ul>
             </nav>
 
-            <nav>
+            <nav role="navigation">
                 <ul  class="social-media">
                     <li><a href="https://www.facebook.com/" target="_blank" aria-label=" move to facebook"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="https://twitter.com/?lang=en"  target="_blank" aria-label=" move to twitter"><i class="fa fa-twitter"></i></a></li>
@@ -194,8 +194,6 @@
             </nav>
 
             <p class="copywrite">Developed By : <a href="https://www.frontendmentor.io/profile/Iman-mohammad">Iman-Mohammad</a> </p>
-
-   
     </footer>
 
 </body>
