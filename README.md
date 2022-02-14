@@ -51,7 +51,7 @@ function myFunction() {
 # Useful resources
 
 - MDN : https://developer.mozilla.org/en-US/ , 
-- W3SCHOOL :https://www.w3schools.com  
+- w3school :https://www.w3schools.com  
 
 # Links
 
