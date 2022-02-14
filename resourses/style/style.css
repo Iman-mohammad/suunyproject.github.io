@@ -601,7 +601,7 @@ li.extra-phone a{
  /*footer */
  footer{
 
-     background-color:  hsl(168, 37%, 59%);
+     background-color:  hsl(168, 47%, 68%);
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -678,9 +678,22 @@ footer a:hover {
 }
 
   /*footer in 825px width */
-  @media screen and (max-width:825px) { 
+  @media screen and (max-width:700px) { 
+    ul.footer-nav , ul.social-media {
 
-   
+        margin: 3% 0;
+
+     }
+
+     footer{
+         padding-top: 0;
+     }
+    
+     .copywrite{
+        margin-top: 5%;
+        margin-bottom: 1%;
+     
+    }
     .footer-logo{
         font-size: 2rem;
     }
