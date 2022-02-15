@@ -19,7 +19,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 #screenshot :
 
-file:///C:/Users/user/Desktop/sunnyside%20screenshoot.png
+<img src="./suunyproject.github.io/sunnyside screenshoot.png">
 
 # Built with
 
