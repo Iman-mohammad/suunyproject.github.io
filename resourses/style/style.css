@@ -118,14 +118,14 @@ header nav ul{
     justify-content: flex-end;
 }
 
-ul.header-nav li{
+ul.header-ul li{
     margin-left: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-ul.header-nav a{
+ul.header-ul a{
     text-decoration: none;
     color: hsl(0, 0%, 100%);
     font-size: 1.3rem;
@@ -160,16 +160,16 @@ li.extra:hover a{
 }
 
 /*phone list style */
-.phone-div{
+.header-phone{
     display: none;
 }
 
-.phone-div img{
+.header-phone img{
    margin: 0;
    height: 23px;
 }
 
-.phone-div img:hover{
+.header-phone img:hover{
     cursor: pointer;
 }
 
@@ -216,20 +216,40 @@ li.extra-phone a{
 .phone{
     position: fixed;
     z-index: 10;
-    top: 115px;
+    top: 130px;
     position: fixed;
-    left:3%;
-    right: 3%;
+    left:5%;
+    right: 5%;
     opacity: 1; 
-    width: 94%;
+    width: 90%;
     height: 275px;
     background-color: #ffffff;
     font-size: 1.5rem;
-    border-radius: 25px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+   
 }
 
 .phone{
     display: none;
+}
+
+.traingle{
+    display: none;
+    position: absolute;
+    top: 83px;
+    right: 33px;
+    /*content: '';
+    width:50px;
+    height: 50px;*/
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 0px solid transparent;
+	border-bottom: 50px solid rgb(255, 255, 255);
+  
+    
 }
 
 /*Css mode*/
@@ -291,7 +311,7 @@ li.extra-phone a{
         height: 27rem;
     }
 
-    .phone-div{
+   .header-phone{
         display: flex;
         width: 50%;
         justify-content: flex-end;
