@@ -14,39 +14,20 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <!--linking fontawesome-->
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!--link with font Barlow 600 , 800  -->
+        <!--link with font Barlow 600 , 800  , Fraunces 700 , 900 -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;800&display=swap" rel="stylesheet">
-        <!--link with Fraunces 700 , 900  -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;800&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
         <title>Sunny Side</title>
     </head>
 
     <body>
         <!--banner section-->
-        <div id="banner">
+        <main id="banner">
             <header>
                 <h1 class="logo" >sunnyside</h1>
-                <!--phone navegation if you want to use css -->
-                <!--<div class="list">
-                    <img src="./resourses/images/icon-hamburger.svg" alt="list icon">
-                    
-                    <div class="phone">
-                        <ul class="phone-nav">
-                            <li><a href="#banner">About</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li class="extra-phone"><a href="#contact" class="captlize">Contact</a></li>
-                        </ul>
-                </div>
-                </div>-->
-
-                <!--desktop navegation-->
-                <nav>
-                    <ul class="header-nav">
+                <nav class="main-nav">
+                    <ul class="header-ul">
                         <li><a href="#banner">About</a></li>
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="#services">Services</a></li>
@@ -55,9 +36,10 @@
                 </nav>
 
                 <!--phone navegation if you want to use JS --> 
-                <div class="phone-div">
-                    <img  src="./resourses/images/icon-hamburger.svg" alt="list icon" onclick="myFunction()">
-                     <span class="traingle"></span>
+                <div class="header-phone">
+                    <img  src="./resourses/images/icon-hamburger.svg" alt="list-icon" onclick="myFunction()" id="hamburger-img">
+                    <img  src="./resourses/images/cancel-01.png" alt="list-icon" id="cancel-img" style="display: none; width: 50px; height:30px;" onclick="myFunction2()">
+                    <div id="triangle-id" class="traingle"></div>
                     <div id="phone-list" class="phone" onclick="myFunction2()">
                         <ul class="phone-nav">
                             <li><a href="#banner">About</a></li>
@@ -72,7 +54,7 @@
             <h1 class="banner-main-hearer captlize">we are creative</h1>
             <img src="./resourses/images/icon-arrow-down.svg" alt="buttom arrow">
 
-        </div>
+        </main>
 
         <!--project section-->
         <div id="projects">
