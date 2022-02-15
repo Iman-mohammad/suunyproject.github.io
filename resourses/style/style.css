@@ -226,7 +226,7 @@ li.extra-phone a{
     font-size: 1.5rem;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-bottom-right-radius: 15px; 
 }
 
 .phone{
